@@ -1,4 +1,4 @@
-# toy_Cnape — 미니 CSPM/CNAPP
+# toy_cnapp — 미니 CSPM/CNAPP
 
 AWS 계정을 읽기 전용으로 스캔해 보안 오설정을 탐지·리포트하는 도구. 국내 **N2SF 보안통제기준**을 AWS 환경에 매핑해 자동화했다.
 
@@ -42,7 +42,7 @@ AWS 계정을 읽기 전용으로 스캔해 보안 오설정을 탐지·리포�
 ## 구조
 
 ```
-toy_Cnape/
+toy_cnapp/
 ├── main.py                     # CLI 엔트리 (--checks ec2,s3,iam,cloudtrail)
 ├── cspm/
 │   ├── core/
